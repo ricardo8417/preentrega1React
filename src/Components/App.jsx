@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
     <Menu />
-    <ItemListContainer greeting={'Bienvenidos a su tienda Online Systems'} />
+    <ItemListContainer greeting={'Lista de Productos'} />
     </div>
   );
 }

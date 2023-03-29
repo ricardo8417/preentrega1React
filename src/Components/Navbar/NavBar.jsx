@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CartWidget from '../CartWidget/CartWidget'
+import {CartWidget} from '../CartWidget/CartWidget'
 import Ecommerce from './assets/Ecommerce.svg'
 
 export const Menu= () => {
@@ -14,12 +14,12 @@ export const Menu= () => {
         <Container>
           <img src={Ecommerce} alt="logo-ecommerce"  />
           <Nav className="me-auto">
-            <Nav.Link href="#home" >Home</Nav.Link>
-            <Nav.Link href="#QuienesSomos" >Quienes Somos</Nav.Link>
-            <Nav.Link href="#Productos" >Productos</Nav.Link>
-            <Nav.Link href="#Contactos" >Contactos</Nav.Link>
+            <Nav.Link href="#Computadoras" >Computadoras</Nav.Link>
+            <Nav.Link href="#Videovigilancia" >Videovigilancia</Nav.Link>
+            <Nav.Link href="#Hardware" >Hardware</Nav.Link>
+            <Nav.Link href="#Software" >Software</Nav.Link>
           </Nav>
-<CartWidget />
+<CartWidget cantCart={0}/>
 
         </Container>
       </Navbar>

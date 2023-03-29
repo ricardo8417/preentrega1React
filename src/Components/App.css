@@ -26,3 +26,19 @@
 }
 
 }
+
+.App nav .container .container-cart{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+}
+.App nav .container .container-cart p{
+  color: white;
+}
+
+.App div h1{
+margin-top: 2%;
+  font-size: 30px;
+  font-weight: bold;
+}

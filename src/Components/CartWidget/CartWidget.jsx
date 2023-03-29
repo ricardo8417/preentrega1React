@@ -1,10 +1,10 @@
 import React from 'react'
-import cart from './assets/cart.svg'
-export default function CartWidget() {
+import cart from './assets/carrito.svg'
+export const CartWidget= ({cantCart}) => {
   return (
-    <div>
+    <div className='container-cart'>
       <img src= {cart} alt="cart-widget" />
-      0
+     <p>{cantCart}</p>
           </div>
           
   )
