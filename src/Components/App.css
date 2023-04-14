@@ -5,7 +5,10 @@
   font-size: 25px;
   }
 
-
+div h1{
+   font-weight: bold;
+   color: black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
  
@@ -26,15 +29,36 @@
 }
 
 }
+nav{
+  margin-bottom: 5%;
+}
 
+nav .container .navbar-nav a{
+  color: white;
+  font-weight: bold;
+}
 .App nav .container .container-cart{
  display: flex;
  justify-content: center;
  align-items: center;
   
 }
-.App nav .container .container-cart p{
+nav .container p{
   color: white;
+  font-weight: bold;
+}
+
+.row{
+ 
+margin-right: 5%!important;
+margin-left: 5% !important;
+gap: 5%;
+margin-bottom: 3%;
+
+}
+
+.row .card{
+  margin-bottom: 3%;
 }
 
 .App div h1{
